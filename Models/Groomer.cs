@@ -20,21 +20,5 @@ namespace PetGrooming.Models
 
 
 
-
-        /* 
-            A groomer is someone who is employed to groom pets
-            Some things that describe a groomer
-                - Name
-                - Date of Birth
-                - Phone Number
-                - Hourly Rate
-                - experience
-                - employee number 
-                - phone number 
-                -
-
-
-            A booking must reference to a groomer
-        */
     }
 }

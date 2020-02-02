@@ -16,18 +16,7 @@ namespace PetGrooming.Models
         public String ownerAddress { get; set; }
         public string ownerEmail { get; set; }
 
-        /*
-            An owner is someone who owns one or more pets
-            Some things that describe an owner:
-                - First Name
-                - Last Name
-                - Address
-                - Phone Number (work)
-                - Phone Number (home)
-
-            An owner must reference a list of pets
-            
-        */
+        
         public int PetID { get; set; }
         [ForeignKey ("PetID")]
         public virtual Pet Pet { get; set; }
